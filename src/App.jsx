@@ -73,7 +73,7 @@ export default function App() {
     },
     {
       q: "參加這個計畫，學校需要負擔費用嗎？",
-      a: "不需要。本計畫由立賢教育基金會全額支持，包含專業講師費用、交通及住宿安排、完整課程設計規劃與專案行政協作，並依課程需求提供部分教材與創作材料。"
+      a: "不需要。本計畫由立賢教育基金會全額支持，包含專業講師費用、交通及住宿厉排、完整課程設計規劃與專案行政協作，並依課程需求提供部分教材與創作材料。"
     },
     {
       q: "學校端需要配合哪些事項？",
@@ -194,7 +194,7 @@ export default function App() {
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between py-3 md:py-5 items-center">
+          <div className="flex py-3 md:py-5 items-center gap-x-8">
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => scrollTo('hero')}>
               <img
                 src="https://github.com/chenghua0216/figures/blob/main/TheShiner_logo.png?raw=true"
@@ -221,7 +221,7 @@ export default function App() {
               </a>
             </div>
             {/* Mobile menu button */}
-            <div className="md:hidden flex items-center">
+            <div className="md:hidden flex items-center ml-auto">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-gray-600 hover:text-orange-500 focus:outline-none"
@@ -241,7 +241,7 @@ export default function App() {
         {isMenuOpen && (
           <div className="md:hidden bg-white shadow-lg absolute w-full">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
-              <button onClick={() => scrollTo('purpose')} className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-md text-left">計畫緣起</button>
+              <button onClick={() => scrollTo('purpose')} className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-md text-left">計畫緢起</button>
               <button onClick={() => scrollTo('goals')} className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-md text-left">核心目標</button>
               <button onClick={() => scrollTo('eligibility')} className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-md text-left">申請資格</button>
               <button onClick={() => scrollTo('execution')} className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-md text-left">執行方式</button>
@@ -340,7 +340,7 @@ export default function App() {
               AI 時代下，擁有跨域整合的創造力與獨立觀點的思辨力，是人類不可替代的核心素養。而這份能力的培養，端賴真實的探索歷程與充滿安全感的學習環境。
             </p>
             <p>
-              立賢承襲過往現場的實踐經驗與回饋，自 115 學年度起正式啟動「心創力校本陪伴計畫」。整合「超能力解鎖多元探索」與「教師支持」雙軌系統，啟動內在創造歷程、推動師生共學，希望為學校或組織打造一個兼具心理安全感與創造力自信的永續教育生態。
+              立賢承襲過往現場的實踐經驗與回饋，自 110 學年度起正式啟動「心創力校本陪伴計畫」。整合「超能力解鎖多元探索」與「教師支持」雙軌系統，啟動內在創造歷程、推動師生共學，希望為學校或組織打造一個兼具心理安全感與創造力自信的永續教育生態。
             </p>
           </div>
         </div>
@@ -363,7 +363,7 @@ export default function App() {
               <div className="bg-amber-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 text-amber-600">
                 <Smile className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">為學生：點燃內在動機，建立學習信心</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">為営㔟：點燃內在動機，建立學習信心</h3>
               <ul className="space-y-4 text-gray-600 flex-grow">
                 <li><strong className="text-gray-800 block mb-1">創造力自信：</strong>透過藝術、自然與戲劇等跨領域課程作為媒介，引導學生探索潛能並實踐自我表達，從覺察自我的特質出發，建立深層的創造力自信。</li>
                 <li><strong className="text-gray-800 block mb-1">安全感建立：</strong>在具備心理安全感的環境中累積正向經驗，將「我做得到」的自信，轉化為能夠面對學習及生活挑戰的韌性。</li>
